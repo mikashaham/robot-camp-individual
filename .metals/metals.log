@@ -1,0 +1,30 @@
+2023.09.07 15:29:55 INFO  Started: Metals version 1.0.1 in folders 'C:\Users\gebruikerr\OneDrive\Desktop\robot-camp-individual' for client Visual Studio Code 1.81.1.
+Sep 07, 2023 3:29:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 07, 2023 3:29:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 07, 2023 3:29:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 07, 2023 3:29:55 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Users\gebruikerr\OneDrive\Desktop\robot-camp-individual\.metals\metals (H2 2.1)
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.046s)
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 07, 2023 3:29:56 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.028s)
+2023.09.07 15:29:56 INFO  time: initialize in 0.94s
+2023.09.07 15:29:58 WARN  Build server is not auto-connectable.
+2023.09.07 15:29:58 WARN  no build tool detected in workspace 'C:\Users\gebruikerr\OneDrive\Desktop\robot-camp-individual'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
